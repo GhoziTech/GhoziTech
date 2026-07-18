@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="28" viewBox="0 0 1200 28" role="img" aria-label="Signal divider">
-  <defs><linearGradient id="g"><stop stop-color="#36E4FF" stop-opacity="0"/><stop offset=".22" stop-color="#36E4FF"/><stop offset=".5" stop-color="#9D7BFF"/><stop offset=".78" stop-color="#48F0B0"/><stop offset="1" stop-color="#48F0B0" stop-opacity="0"/></linearGradient></defs>
-  <path d="M0 14H520l18-8 18 16 18-16 18 8H1200" fill="none" stroke="url(#g)" stroke-width="1.5" stroke-dasharray="120 1080"><animate attributeName="stroke-dashoffset" from="0" to="-2400" dur="10s" repeatCount="indefinite"/></path>
-  <circle cx="556" cy="14" r="3" fill="#9D7BFF"><animate attributeName="opacity" values=".25;1;.25" dur="1.6s" repeatCount="indefinite"/></circle>
-</svg>
