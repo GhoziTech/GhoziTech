@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">GhoziTech capability matrix</title>
+  <desc id="desc">Three engineering lanes: interface systems, automation systems, and delivery systems.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#05070D"/><stop offset="1" stop-color="#081323"/></linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#36E4FF"/><stop offset=".5" stop-color="#9D7BFF"/><stop offset="1" stop-color="#48F0B0"/></linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#17314B" stroke-width=".7" opacity=".3"/></pattern>
+    <style>
+      text{font-family:Inter,Segoe UI,Arial,sans-serif} .mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+      .micro{font-size:9px;font-weight:750;letter-spacing:1.4px} .title{font-size:17px;font-weight:800;letter-spacing:.4px} .stack{font-size:12px;font-weight:620}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="1198" height="328" rx="22" fill="url(#bg)" stroke="#29425E"/>
+  <rect x="1" y="1" width="1198" height="328" rx="22" fill="url(#grid)"/>
+  <text x="36" y="43" class="micro mono" fill="#36E4FF">CAPABILITY MATRIX</text>
+  <text x="36" y="68" font-family="Inter,Segoe UI,Arial" font-size="23" font-weight="800" fill="#F5F7FF">Three lanes. One delivery standard.</text>
+  <text x="1164" y="51" text-anchor="end" class="micro mono" fill="#5C718B">03 ACTIVE CHANNELS</text>
+  <line x1="36" y1="82" x2="1164" y2="82" stroke="url(#lineGrad)" stroke-width="1.2" stroke-dasharray="80 1048"><animate attributeName="stroke-dashoffset" from="0" to="-1128" dur="8s" repeatCount="indefinite"/></line>
+  
+        <g transform="translate(36 94)">
+          <rect width="342" height="202" rx="18" fill="#0B1524" stroke="#29425E"/>
+          <rect x="18" y="18" width="46" height="24" rx="12" fill="#36E4FF" fill-opacity=".1" stroke="#36E4FF" stroke-opacity=".45"/>
+          <text x="41" y="34" text-anchor="middle" class="micro mono" fill="#36E4FF">01</text>
+          <circle cx="304" cy="30" r="5" fill="#36E4FF"><animate attributeName="opacity" values=".25;1;.25" dur="1.8s" repeatCount="indefinite"/></circle>
+          <text x="20" y="76" class="title" fill="#F5F7FF">INTERFACE SYSTEMS</text>
+          <text x="20" y="107" class="stack" fill="#8EA2BB">React · TypeScript · Three.js · GSAP</text>
+          <line x1="20" y1="130" x2="320" y2="130" stroke="#1A3550"/>
+          <text x="20" y="155" class="micro mono" fill="#5C718B">CINEMATIC UI / RESPONSIVE / 3D</text>
+          <rect x="20" y="174" width="302" height="5" rx="2.5" fill="#102238"/>
+          <rect x="20" y="174" width="0" height="5" rx="2.5" fill="#36E4FF">
+            <animate attributeName="width" values="0;248;248" begin="0.7s" dur="2.4s" fill="freeze"/>
+          </rect>
+        </g>
+        <g transform="translate(414 94)">
+          <rect width="342" height="202" rx="18" fill="#0B1524" stroke="#29425E"/>
+          <rect x="18" y="18" width="46" height="24" rx="12" fill="#9D7BFF" fill-opacity=".1" stroke="#9D7BFF" stroke-opacity=".45"/>
+          <text x="41" y="34" text-anchor="middle" class="micro mono" fill="#9D7BFF">02</text>
+          <circle cx="304" cy="30" r="5" fill="#9D7BFF"><animate attributeName="opacity" values=".25;1;.25" dur="2.2s" repeatCount="indefinite"/></circle>
+          <text x="20" y="76" class="title" fill="#F5F7FF">AUTOMATION SYSTEMS</text>
+          <text x="20" y="107" class="stack" fill="#8EA2BB">Node.js · Python · APIs · WhatsApp</text>
+          <line x1="20" y1="130" x2="320" y2="130" stroke="#1A3550"/>
+          <text x="20" y="155" class="micro mono" fill="#5C718B">WORKFLOWS / BOTS / BUSINESS LOGIC</text>
+          <rect x="20" y="174" width="302" height="5" rx="2.5" fill="#102238"/>
+          <rect x="20" y="174" width="0" height="5" rx="2.5" fill="#9D7BFF">
+            <animate attributeName="width" values="0;231;231" begin="0.95s" dur="2.4s" fill="freeze"/>
+          </rect>
+        </g>
+        <g transform="translate(792 94)">
+          <rect width="342" height="202" rx="18" fill="#0B1524" stroke="#29425E"/>
+          <rect x="18" y="18" width="46" height="24" rx="12" fill="#48F0B0" fill-opacity=".1" stroke="#48F0B0" stroke-opacity=".45"/>
+          <text x="41" y="34" text-anchor="middle" class="micro mono" fill="#48F0B0">03</text>
+          <circle cx="304" cy="30" r="5" fill="#48F0B0"><animate attributeName="opacity" values=".25;1;.25" dur="2.6s" repeatCount="indefinite"/></circle>
+          <text x="20" y="76" class="title" fill="#F5F7FF">DELIVERY SYSTEMS</text>
+          <text x="20" y="107" class="stack" fill="#8EA2BB">Git · GitHub Actions · Docker · Vite</text>
+          <line x1="20" y1="130" x2="320" y2="130" stroke="#1A3550"/>
+          <text x="20" y="155" class="micro mono" fill="#5C718B">BUILD / TEST / DEPLOY / OBSERVE</text>
+          <rect x="20" y="174" width="302" height="5" rx="2.5" fill="#102238"/>
+          <rect x="20" y="174" width="0" height="5" rx="2.5" fill="#48F0B0">
+            <animate attributeName="width" values="0;214;214" begin="1.2s" dur="2.4s" fill="freeze"/>
+          </rect>
+        </g>
+</svg>
