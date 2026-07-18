@@ -1,7 +1,0 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg">
-    <img alt="Hafid Ghozi Al Ghifari — Premium Cyber-Lux GitHub Hero" src="./assets/dark.svg" width="100%" />
-  </picture>
-</p>
